@@ -52,4 +52,11 @@ class UserController extends Controller
         return View::make('admin.auth.login');
 
     }
+
+    // Used to logout the user
+    public function logout() {
+        Auth::logout();
+        Session::flash('flash_notice', 'You are now logged out!');
+        return Redirect(route('admin.login'));
+    }
 }
