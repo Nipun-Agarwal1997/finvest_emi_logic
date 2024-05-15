@@ -47,3 +47,12 @@ composer require laravelcollective/html <!-- This will allow the useing of Form 
 <!-- write the HTMl file in View -->
 <!-- on submit validate useing laravel validation module -->
 <!-- And Now Last but not least Auth Attempt -->
+
+<!-- Step 8 Design Pickup admin And adding functionality -->
+
+<!-- Now We can pick the any design from the any website i use w3layout.com for admin design pick -->
+<!-- Now implement Comman required this  
+    -- plugins bundle
+    -- sweet alert
+-->
+<!-- Now create the comman function for error, success, flash_notice For attractive massage display -->
