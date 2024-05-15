@@ -56,3 +56,5 @@ composer require laravelcollective/html <!-- This will allow the useing of Form 
     -- sweet alert
 -->
 <!-- Now create the comman function for error, success, flash_notice For attractive massage display -->
+
+<!-- Step 9 Now Create the process button and login behind the calculation in emi controller -->

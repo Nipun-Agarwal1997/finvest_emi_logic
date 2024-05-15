@@ -24,5 +24,6 @@ Route::group(array('prefix' => 'admin'),  function() {
     Route::get('/logout', array('as' => 'admin.logout', 'uses' => 'admin\UserController@logout'));
 
     Route::get('/loans', array('as' => 'admin.loansDetails', 'uses' => 'admin\LoansController@index'));
-    Route::get('/process-date', array('as' => 'loans.process', 'uses' => 'admin\LoansController@index'));
+    Route::get('/process-data', array('as' => 'loans.process', 'uses' => 'admin\EmiDetailsController@index'));
+    Route::get('/process-data-emi', array('as' => 'loans.process.emi', 'uses' => 'admin\EmiDetailsController@process'));
 });

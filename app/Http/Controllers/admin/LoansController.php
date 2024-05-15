@@ -27,9 +27,6 @@ class LoansController extends Controller
         $DB->orderBy('clientid', 'DESC');
         $records = $DB->get();
 
-        // echo "<pre>";
-        // print_r($records);
-        // exit;
         return View::make("admin.$this->model.index", compact('records'));
         
     }
